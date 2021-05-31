@@ -1,0 +1,12 @@
+python >= 3.8
+numpy >= 1.19
+scipy >= 1.2
+matplotlib >= 3.0
+jupyter
+xarray
+arviz
+# (optional)
+pytest >= 6.0.0
+numba>=0.51
+ipython
+seaborn

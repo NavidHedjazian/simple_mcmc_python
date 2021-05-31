@@ -1,0 +1,17 @@
+name: rouzo
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.8
+  - numpy>=1.19
+  - scipy>=1.2
+  - matplotlib>=3.0
+  - jupyter
+  - xarray
+  - arviz
+  # (optional)
+  - pytest>=5.0.0
+  - numba>=0.50
+  - ipython
+  - seaborn

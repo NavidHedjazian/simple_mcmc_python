@@ -1,0 +1,17 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Notebook data in subdirectories
+**/.pynb_checkpoints/
+
+# Sphinx documentation
+docs/_build/
+
+# Examples products
+mcmc/examples/.ipynb_checkpoints/
+mcmc/examples/*.nc
+
+# Pycharm repo
+.idea/
