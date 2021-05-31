@@ -1,2 +1,5 @@
-Invert coral reef terraces data for retrieving past sea-level variations 
+Example of a Metropolis MCMC algorithm in python
+------------------------------------------------
+
+Usage: see notebook in mcmc/examples
 
