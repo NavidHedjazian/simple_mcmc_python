@@ -74,12 +74,15 @@ class MCMCBase:
         filename :  str
             Name of the file / path where the object is written to
 
-
         format : str
             "xarray": saves as an xarray/netCDF format
+            "arviz": saves as an arviz/netCDF format
         """
-        obj = self.get_results(format=format)
-        return
+        if format == "arviz" or format == "xarray":
+            obj = self.get_results(format=format)
+            obj.to_netcdf(filename)
+        else:
+            warnings.warn("Invalid file format for write_samples")
 
     @classmethod
     def read(cls, filename, format="pickle"):
